@@ -42,12 +42,15 @@ public class Lista {
                 
         return cabeza;
     }
-    void imprimir(){
+    String imprimir(){
         Nodo q=cabeza;
+        String resul="";
         while(q!=null){
-            System.out.println(q.info);
+            resul=resul+q.info+"--->";
             q=q.sig;
         }
+        return resul;
+        
     }
     boolean buscar(int d){
         Nodo q=cabeza;

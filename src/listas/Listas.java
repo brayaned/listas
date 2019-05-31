@@ -18,12 +18,13 @@ public class Listas {
      */
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-       
+        Ventana ventana=new Ventana();
+        ventana.setVisible(true);
         Lista lista=new Lista();
-        int n,d;
+        //int n,d;
         
         
-        do{
+        /*do{
             System.out.println("1.insertar");
             System.out.println("2.imprimir");
             System.out.println("3.buscar");
@@ -48,7 +49,7 @@ public class Listas {
                 lista.retirar(d);
                 break;
         }
-        }while(n!=0);
+        }while(n!=0);*/
     }
     
 }
